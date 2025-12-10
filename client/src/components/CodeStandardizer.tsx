@@ -111,7 +111,7 @@ const GithubRepoInput: React.FC<{
             <Label htmlFor="repoOwner">Repository Owner</Label>
             <Input
               id="repoOwner"
-              value={repoOwner || "awesohame"}
+              value={repoOwner || "Satyam255"}
               onChange={(e) => setRepoOwner(e.target.value)}
               placeholder="e.g., facebook"
               className="bg-[#0f172a] border-blue-500/20 text-blue-100/80 focus-visible:ring-blue-400 rounded-sm"

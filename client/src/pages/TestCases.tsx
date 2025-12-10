@@ -12,7 +12,7 @@ import { GitHubContentItem } from "@/types";
 import CodeAnalyzerPanel from "@/components/CodeAnalyzerPanel";
 
 const TestCaseDashboard: React.FC = () => {
-  const repoOwner = "awesohame", repoName = "testing";
+  const repoOwner = "Satyam255", repoName = "testing";
   const [structure, setStructure] = useState<GitHubContentItem[]>([]);
   const [selectedFile, setSelectedFile] = useState<GitHubContentItem | null>(
     null
