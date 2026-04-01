@@ -5,6 +5,10 @@
 CodeVed is a modern React frontend, a Node.js/Express backend, and a Python microservice for document ingestion and standardization. The project demonstrates advanced integration of AI, GitHub API, and collaborative tools for developers.
 
 ---
+### System Architecture & Data Flow
+
+![Data Flow Diagram](./dataflow_diagram.png)
+
 
 ## Features
 
