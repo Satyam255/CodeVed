@@ -1,13 +1,15 @@
 # CodeVed
 
 ## Overview
-CodeVed is a full-stack project built for Hacksplosion 25. It combines a modern React frontend, a Node.js/Express backend, and a Python microservice for document ingestion and standardization. The project demonstrates advanced integration of AI, GitHub API, and collaborative tools for developers.
+
+CodeVed is a modern React frontend, a Node.js/Express backend, and a Python microservice for document ingestion and standardization. The project demonstrates advanced integration of AI, GitHub API, and collaborative tools for developers.
 
 ---
 
 ## Features
 
 ### Multi-Tier Architecture
+
 - **Client (React + Vite + TypeScript):**
   - Modern UI for interacting with repositories, users, and AI features
   - GitHub repo viewer with authentication
@@ -24,6 +26,7 @@ CodeVed is a full-stack project built for Hacksplosion 25. It combines a modern 
   - Used for AI-powered document analysis
 
 ### AI & Automation
+
 - **AI Call Agent:**
   - Integrates with Gemini API for AI-powered features
   - Automated code/document analysis and suggestions
@@ -31,12 +34,14 @@ CodeVed is a full-stack project built for Hacksplosion 25. It combines a modern 
   - Python scripts to standardize and extract data from uploaded documents
 
 ### Authentication & Security
+
 - **Clerk Integration:**
   - Secure user authentication and session management
 - **Environment-based Secrets:**
   - Uses `.env` files for API keys and tokens
 
 ### Modular & Scalable Codebase
+
 - **Separation of Concerns:**
   - Clear separation between client, server, and Python services
 - **Reusable Components:**
@@ -45,6 +50,7 @@ CodeVed is a full-stack project built for Hacksplosion 25. It combines a modern 
   - Easily add new routes, controllers, and services
 
 ### Developer Experience
+
 - **Vite for Fast Frontend Development**
 - **ESLint & TypeScript for Code Quality**
 - **Hot Reloading and Modern Tooling**
@@ -73,7 +79,7 @@ CodeVed is a full-stack project built for Hacksplosion 25. It combines a modern 
 ---
 
 ## Contributing
+
 Pull requests and issues are welcome! Please see the contributing guidelines in each subfolder.
 
 ---
-

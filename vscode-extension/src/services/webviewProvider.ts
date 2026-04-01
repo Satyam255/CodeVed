@@ -9,6 +9,7 @@ export class ChatbotViewProvider implements vscode.WebviewViewProvider {
   
   constructor(private readonly _extensionUri: vscode.Uri) {
     // Initialize Gemini API
+    // Removed apiKey resolve security issue (Will Add it later during execution)
     const apiKey = ""
     this.genAI = new GoogleGenerativeAI(apiKey);
     this.model = this.genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
